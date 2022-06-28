@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  
+
+  }
+  
+
+
+  
+  .searchInputs {
+    margin-top: 105px;
+    display: flex;
+    
+  }
+  
+  
+  .search input {
+    background-color: rgb(47, 92, 119);
+    border: 0;
+    border-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 20px;
+    padding: 25px;
+    height: 65px;
+    border-radius: 4px;
+    width: 500px;
+    left: 35%;
+    position: absolute;
+    margin-top: 10px;
+    color: rgb(24, 19, 19);
+  }
+  
+  .searchIcon {
+    height: 67px;
+    width: 53px;
+    background-color: rgb(221, 211, 211);
+    display: grid;
+    place-items: center;
+    left: 62%;
+    font-size: 27px;
+    margin-top: 9px;
+    position: absolute;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+
+  
+  .filterbox {
+    margin-top: 5px;
+    width: 300px;
+    height: 80px;
+    background-color: rgb(19, 19, 19);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    left: 35%;
+    position: absolute;
+    top: 18%;
+    overflow-y: auto;
+  }
+  
+  .filterbox::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .filterbox .filteritem {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: rgb(243, 231, 231);
+  }
+  
+  .filteritem p {
+    margin-left: 10px;
+  }
+  
+  
+  p:hover {
+    background-color: rgb(66, 64, 64);
+  }
+  
+  #clearBtn {
+    cursor: pointer;
+  }
+  .top p{
+    color: rgb(20, 18, 18);
+    font-size: 45px;
+    left: 36%;
+    font-weight: 500;
+    top: 11%;
+    position: absolute;
+  }
+  .temp h2{
+    left: 43%;
+    top: 48%;
+    position: absolute;
+    color: rgb(27, 27, 27);
+    margin-top: 5px;
+  }
+  
+  .feels h3{
+    color: rgb(20, 16, 16);
+    font-size: 20px;
+    font-weight: 500;
+    left: 37%;
+    top: 75%;
+    position: absolute;
+  }
+  .feels p{
+    color: rgb(12, 11, 11);
+    font-size: 29px;
+    font-weight: 300;
+    left: 37%;
+    top:70%;
+    position: absolute;
+  }
+
+  .humidity h3{
+    color: rgb(24, 20, 20);
+    font-size: 18px;
+    font-weight: 500;
+    left: 58%;
+    top: 75%;
+    position: absolute;
+  }
+  .humidity p{
+    color: rgb(15, 13, 13);
+    font-size: 29px;
+    font-weight: 300;
+    left: 58%;
+    top: 70%;
+    position: absolute;
+    
+  }
+  .top{
+    height: 30%;
+    width: 32%;
+    background-color: rgb(89, 129, 156);
+    top: 55%;
+  position: absolute;
+    border-radius: 3px;
+    left: 34%;
+  }
+
+  
+
+  
+
+
+  
+  
